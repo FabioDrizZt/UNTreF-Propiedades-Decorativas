@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+h1{
+  margin-top: 0;
+}
+body {
+  margin: 0 ;
+  min-height: 100vh;
+background-image: url('../img/4k-Lionel-Messi-World-Cup-4K-Wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.card{
+  opacity: 0.5;
+
+  width: 100px;
+  height: 200px;
+  background-color: aliceblue;
+  background-image: url('https://static.wikia.nocookie.net/futebol/images/8/8b/Leo_Messi.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+ul.musicos {
+  
+  list-style-type: square;/* cuadrado */
+  list-style-type: disc; /* default */
+  list-style-type: circle;/* circulo */
+  list-style-image: url('../icons/bookmark-check-fill.svg');
+}
+
+ol.deportistas {
+  list-style-type: upper-roman;
+  list-style-type: lower-roman;
+  list-style-type: upper-alpha;
+  list-style-type: lower-alpha;
+  list-style-type: decimal;
+  list-style-type: lower-greek;
+  list-style-type: lower-latin;
+  list-style-type: upper-latin;
+  list-style-type: armenian;
+  list-style-type: georgian;
+  list-style-type: hebrew;
+  list-style-type: hiragana;
+  list-style-type: hiragana-iroha;
+  list-style-type: katakana;
+  list-style-type: katakana-iroha;
+  list-style-type: decimal-leading-zero;
+  list-style-position: outside;
+  padding: 0;
+}
