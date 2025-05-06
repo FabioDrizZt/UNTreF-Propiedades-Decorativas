@@ -13,16 +13,29 @@ background-image: url('../img/4k-Lionel-Messi-World-Cup-4K-Wallpaper.jpg');
   background-size: cover;
 }
 .card{
-  opacity: 0.5;
-
-  width: 100px;
-  height: 200px;
+  opacity: 1;
+  width: 200px;
+  height: 400px;
   background-color: aliceblue;
   background-image: url('https://static.wikia.nocookie.net/futebol/images/8/8b/Leo_Messi.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
+
+  &:hover{/* Cuando el mouse se encuentra sobre el elemento */
+    /* filter: blur(10px); */
+    /* filter: sepia(100%); */
+    /* filter: grayscale(100%); */
+    /* filter: contrast(150%); */
+    /* filter: brightness(150%); */
+    /* filter: hue-rotate(100deg); */
+    /* filter: invert(100%); */
+    /* filter: opacity(10%); */
+     /* filter: saturate(3);  */
+    transition: all 2.5s ease-in-out;
+  }
 }
+
 ul.musicos {
   
   list-style-type: square;/* cuadrado */
